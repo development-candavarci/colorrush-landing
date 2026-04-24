@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1A2332">
+<meta name="color-scheme" content="dark">
+
+<title>Color Rush: Araba Oyunu — Renk Değişir, Her Şey Değişir</title>
+<meta name="description" content="Otoyolun en hızlı refleks testi. 3 katmanlı karar baskısı, 25 araç, renk körü dostu. Unity 6 ile Türkiye'de üretildi. iOS + Android için ücretsiz indir.">
+<meta name="keywords" content="color rush, araba oyunu, arcade mobil oyun, refleks oyunu, renk eşleştirme, türkçe oyun, hızlı araba oyunu, endless runner">
+<meta name="author" content="Parcalar / Candavarcı Trusted Digital Partner">
+<meta name="robots" content="index,follow,max-image-preview:large">
+
+<!-- Canonical + hreflang -->
+<link rel="canonical" href="https://colorrush.candavarci.com.tr/">
+<link rel="alternate" hreflang="tr-TR" href="https://colorrush.candavarci.com.tr/">
+<link rel="alternate" hreflang="en-US" href="https://colorrush.candavarci.com.tr/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://colorrush.candavarci.com.tr/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Color Rush">
+<meta property="og:title" content="Color Rush: Araba Oyunu — Renk Değişir, Her Şey Değişir">
+<meta property="og:description" content="Otoyolun en hızlı refleks testi. 3 katmanlı karar baskısı, 25 araç, renk körü dostu. iOS + Android için ücretsiz.">
+<meta property="og:image" content="https://colorrush.candavarci.com.tr/assets/og/hero-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Color Rush mobil oyun — iPhone ve Android gameplay görseli">
+<meta property="og:url" content="https://colorrush.candavarci.com.tr/">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Color Rush: Araba Oyunu">
+<meta name="twitter:description" content="Renk eşleştirme + trafik kaçış + artan hız. 25 araç, renk körü dostu, Türkçe %100. Ücretsiz indir.">
+<meta name="twitter:image" content="https://colorrush.candavarci.com.tr/assets/og/hero-og.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
+
+<!-- Preconnect + Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="font" type="font/woff2" crossorigin
+      href="https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2">
+
+<!-- Preload hero image -->
+<link rel="preload" as="image" href="assets/og/hero-og.png" fetchpriority="high">
+
+<!-- Google Fonts (deferred) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" media="print" onload="this.media='all'">
+
+<!-- JSON-LD Schema @graph -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://candavarci.com.tr/#org",
+      "name": "Parcalar",
+      "alternateName": "Candavarcı Trusted Digital Partner",
+      "url": "https://candavarci.com.tr",
+      "logo": "https://candavarci.com.tr/logo.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Can Davarcı",
+        "jobTitle": "Kurucu"
+      },
+      "sameAs": [
+        "https://candavarci.com.tr"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+90-554-947-80-18",
+        "contactType": "customer support",
+        "email": "contact@candavarci.com.tr",
+        "availableLanguage": ["Turkish", "English"]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://colorrush.candavarci.com.tr/#website",
+      "url": "https://colorrush.candavarci.com.tr/",
+      "name": "Color Rush",
+      "description": "Color Rush: Araba Oyunu resmi tanıtım sitesi",
+      "publisher": {"@id": "https://candavarci.com.tr/#org"},
+      "inLanguage": ["tr-TR", "en-US"]
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://colorrush.candavarci.com.tr/#game",
+      "name": "Color Rush: Araba Oyunu",
+      "alternateName": "Color Rush",
+      "description": "Üç katmanlı arcade refleks oyunu: trafikten kaç, renk eşleştir, artan hıza dayan. Unity 6 ile üretildi. 25 araç, renk körü dostu, Türkçe %100 lokalize.",
+      "genre": ["Arcade", "Endless Runner", "Reflex"],
+      "gamePlatform": ["iOS", "Android"],
+      "playMode": "SinglePlayer",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "iOS 15.0+, Android 8.0+",
+      "inLanguage": ["tr-TR", "en-US"],
+      "author": {"@id": "https://candavarci.com.tr/#org"},
+      "publisher": {"@id": "https://candavarci.com.tr/#org"},
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY",
+        "availability": "https://schema.org/PreOrder"
+      },
+      "contentRating": "4+",
+      "image": "https://colorrush.candavarci.com.tr/assets/og/hero-og.png"
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://colorrush.candavarci.com.tr/#app",
+      "name": "Color Rush: Araba Oyunu",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Arcade",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "50",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {"@id": "https://candavarci.com.tr/#org"}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://colorrush.candavarci.com.tr/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Color Rush ücretsiz mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, Color Rush tamamen ücretsiz indirilir ve oynanır. İsteğe bağlı in-app satın alma (kozmetik araç skinleri, yumuşak para paketleri) ve rewarded video reklamları bulunur. Pay-to-win yoktur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi platformlarda oynanabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS 15.0 ve üzeri ile Android 8.0 (API 26) ve üzeri. Minimum 2GB RAM gerekir. Uygulama boyutu 100MB altındadır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oyun Türkçe mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, oyun %100 Türkçeye çevrilidir. HUD, menüler, tutorial, ayarlar, mağaza — hepsi tam Türkçe. İngilizce dil seçeneği de mevcuttur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Renk körü desteği nasıl çalışıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her renk hem renk hem de geometrik sembol taşır: Mavi/daire, Sarı/üçgen, Kırmızı/kare, Yeşil/baklava. Ayrıca 3 yüksek kontrast paleti ve desen seçenekleri mevcut. Bu özellik arcade oyunlarda nadirdir ve 300 milyon renk körü oyuncuyu dahil eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Multiplayer var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk sürümde multiplayer yok. Tek oyunculu endless arcade deneyimi. Global leaderboard ve haftalık etkinlikler sonraki güncellemelerde planlanıyor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çevrimdışı oynanır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, oyun çevrimdışı tam oynanır. İnternet yalnızca reklam gösterimi ve mağaza (IAP) için gerekir. Skor tablosu lokal kaydedilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pay-to-win var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Mağazada yalnızca kozmetik araç skinleri ve yumuşak para paketleri satılır. Ekstra can, hız artışı veya renk ipucu gibi oynanışı etkileyen satın alma yoktur. Skor tablosu bütünlüğü korunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam gösteriliyor mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ölüm sonrası isteğe bağlı rewarded video (revive veya 2× altın) ve her 3. ölümde bir kısa interstitial gösterilir. Reklamları tamamen kaldıran tek seferlik 49 TL satın alma vardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaç araç var?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlangıçta 25 araç. Her biri farklı görünüm ve hafif stat farkları taşır (hız, şerit değiştirme hızı). Altın ve Gem ile kilit açılır. Pay-to-win olmadığı için yeni araç puanı artırmaz, yalnızca görünümdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ne zaman yayında olacak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yaklaşık 30 gün içinde App Store ve Google Play'de yayında. Erken erişim ve beta testi için aşağıdaki e-posta formuna katılabilirsiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://colorrush.candavarci.com.tr/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Critical CSS -->
+<style>
+:root {
+  --bg: #1A2332;
+  --bg-2: #0F1420;
+  --surface: #243147;
+  --border: #334155;
+  --text: #F8FAFC;
+  --text-muted: #94A3B8;
+  --blue: #2979FF;
+  --yellow: #FFD600;
+  --red: #FF1744;
+  --green: #00E676;
+  --accent: #FFD600;
+  --radius: 16px;
+  --max-w: 1200px;
+  --space: clamp(16px, 3vw, 32px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+  font-feature-settings: "ss01", "cv11";
+}
+
+img, picture, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 8px 16px;
+  z-index: 1000;
+  font-weight: 700;
+  border-radius: 0 0 8px 0;
+}
+.skip-link:focus { top: 0; }
+
+:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Layout */
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--space);
+}
+
+section {
+  padding: clamp(48px, 8vw, 96px) 0;
+}
+
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 20, 32, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px var(--space);
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.logo-mark {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lang-toggle button {
+  padding: 6px 14px;
+  border-radius: 999px;
+  color: var(--text-muted);
+  transition: all 150ms;
+}
+
+.lang-toggle button[aria-pressed="true"] {
+  background: var(--yellow);
+  color: var(--bg);
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: clamp(48px, 10vw, 120px) 0 clamp(32px, 6vw, 80px);
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(41, 121, 255, 0.18), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 90% 80%, rgba(255, 214, 0, 0.12), transparent 70%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 214, 0, 0.12);
+  border: 1px solid rgba(255, 214, 0, 0.3);
+  color: var(--yellow);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.75; }
+}
+
+.hero h1 {
+  font-size: clamp(36px, 7vw, 72px);
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+
+.hero h1 .color-blue { color: var(--blue); }
+.hero h1 .color-yellow { color: var(--yellow); }
+.hero h1 .color-red { color: var(--red); }
+.hero h1 .color-green { color: var(--green); }
+
+.hero-lead {
+  font-size: clamp(17px, 2vw, 20px);
+  color: var(--text-muted);
+  max-width: 580px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  min-height: 54px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.btn-store {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.btn-store:hover, .btn-store:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn-store span { display: block; }
+.btn-store .store-sub { font-size: 11px; font-weight: 500; opacity: 0.75; letter-spacing: 0.05em; }
+.btn-store .store-main { font-size: 18px; font-weight: 800; }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--border);
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.trust-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.trust-bar span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trust-bar .dot {
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.hero-visual {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  background: var(--surface);
+}
+
+.hero-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top right, rgba(255, 214, 0, 0.15), transparent 50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Section Titles */
+.section-eyebrow {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(28px, 5vw, 48px);
+  margin-bottom: 16px;
+  letter-spacing: -0.03em;
+}
+
+.section-lead {
+  color: var(--text-muted);
+  font-size: clamp(16px, 1.5vw, 18px);
+  max-width: 680px;
+  margin-bottom: 48px;
+  line-height: 1.5;
+}
+
+/* Mechanics 3-Card */
+.mechanics-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.mechanic-card {
+  background: linear-gradient(160deg, var(--surface) 0%, rgba(36, 49, 71, 0.6) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: all 220ms;
+}
+
+.mechanic-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.mechanic-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.mechanic-card:nth-child(1) .mechanic-icon { background: rgba(41, 121, 255, 0.15); color: var(--blue); }
+.mechanic-card:nth-child(2) .mechanic-icon { background: rgba(255, 23, 68, 0.15); color: var(--red); }
+.mechanic-card:nth-child(3) .mechanic-icon { background: rgba(255, 214, 0, 0.15); color: var(--yellow); }
+
+.mechanic-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.mechanic-card p {
+  color: var(--text-muted);
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.feature {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 12px;
+  transition: background 150ms;
+}
+
+.feature:hover {
+  background: rgba(36, 49, 71, 0.4);
+}
+
+.feature-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(255, 214, 0, 0.12);
+  color: var(--yellow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.feature p {
+  color: var(--text-muted);
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+/* How it works */
+.steps {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  counter-reset: step;
+}
+
+.step {
+  position: relative;
+  padding: 28px 20px 20px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.step::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: var(--yellow);
+  color: var(--bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Space Grotesk';
+}
+
+.step h3 {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.step p {
+  color: var(--text-muted);
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.gallery figure {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: transform 220ms;
+}
+
+.gallery figure:hover {
+  transform: scale(1.02);
+  border-color: var(--accent);
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(15, 20, 32, 0.95), transparent);
+  padding: 24px 16px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Testimonial */
+.testimonials {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.testimonial {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.testimonial-stars {
+  color: var(--yellow);
+  font-size: 18px;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+}
+
+.testimonial-quote {
+  font-size: 15.5px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  font-style: italic;
+  color: var(--text);
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.testimonial-author strong {
+  display: block;
+  font-size: 15px;
+}
+
+.testimonial-author span {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--blue), var(--green));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: var(--bg);
+}
+
+/* About */
+.about-box {
+  background: linear-gradient(135deg, rgba(41, 121, 255, 0.12), rgba(0, 230, 118, 0.08));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: clamp(28px, 4vw, 48px);
+  display: grid;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .about-box { grid-template-columns: 2fr 1fr; }
+}
+
+.about-box h2 { font-size: clamp(24px, 4vw, 36px); margin-bottom: 16px; }
+.about-box p { color: var(--text-muted); font-size: 16px; line-height: 1.7; margin-bottom: 16px; }
+
+/* FAQ */
+.faq-list {
+  display: grid;
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 150ms;
+}
+
+.faq-item[open] { border-color: var(--accent); }
+
+.faq-item summary {
+  padding: 18px 22px;
+  font-weight: 700;
+  font-size: 16.5px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  font-size: 24px;
+  color: var(--accent);
+  font-weight: 400;
+  transition: transform 200ms;
+  flex-shrink: 0;
+}
+
+.faq-item[open] summary::after { transform: rotate(45deg); }
+
+.faq-item .faq-body {
+  padding: 0 22px 20px;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* Final CTA */
+.final-cta {
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(41, 121, 255, 0.15), transparent 70%);
+  padding: clamp(64px, 10vw, 120px) 0;
+}
+
+.final-cta h2 {
+  font-size: clamp(36px, 6vw, 60px);
+  margin-bottom: 20px;
+}
+
+.final-cta p {
+  color: var(--text-muted);
+  font-size: 18px;
+  max-width: 560px;
+  margin: 0 auto 40px;
+  line-height: 1.5;
+}
+
+.final-cta .hero-cta {
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background: var(--bg-2);
+  border-top: 1px solid var(--border);
+  padding: 48px 0 24px;
+  font-size: 14px;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
+}
+
+.footer-brand p {
+  color: var(--text-muted);
+  margin-top: 12px;
+  max-width: 360px;
+  line-height: 1.6;
+}
+
+footer h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+footer ul {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+footer a {
+  color: var(--text);
+  transition: color 150ms;
+}
+
+footer a:hover { color: var(--accent); }
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.footer-legal {
+  max-width: 700px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* Utilities */
+[hidden] { display: none !important; }
+
+/* EN content hidden by default */
+[data-lang="en"] { display: none; }
+html[lang="en-US"] [data-lang="tr"] { display: none; }
+html[lang="en-US"] [data-lang="en"] { display: initial; }
+html[lang="en-US"] p[data-lang="en"],
+html[lang="en-US"] h1[data-lang="en"],
+html[lang="en-US"] h2[data-lang="en"],
+html[lang="en-US"] h3[data-lang="en"],
+html[lang="en-US"] span[data-lang="en"],
+html[lang="en-US"] div[data-lang="en"],
+html[lang="en-US"] li[data-lang="en"] { display: block; }
+html[lang="en-US"] span[data-lang="en"] { display: inline; }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link" data-lang="tr">İçeriğe atla</a>
+<a href="#main" class="skip-link" data-lang="en">Skip to content</a>
+
+<!-- Header -->
+<header class="site-header">
+  <nav class="nav" aria-label="Ana navigasyon">
+    <a href="#" class="logo" aria-label="Color Rush ana sayfa">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#243147"/>
+          <circle cx="20" cy="22" r="5" fill="#2979FF"/>
+          <polygon points="44,15 50,26 38,26" fill="#FFD600"/>
+          <rect x="15" y="38" width="10" height="10" fill="#FF1744"/>
+          <polygon points="44,38 52,44 44,50 36,44" fill="#00E676"/>
+        </svg>
+      </span>
+      <span>Color Rush</span>
+    </a>
+    <div class="lang-toggle" role="group" aria-label="Dil seçimi">
+      <button type="button" id="btn-tr" aria-pressed="true">TR</button>
+      <button type="button" id="btn-en" aria-pressed="false">EN</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-badge">
+          <span data-lang="tr">🎮 Yakında yayında — iOS + Android</span>
+          <span data-lang="en">🎮 Coming soon — iOS + Android</span>
+        </span>
+        <h1>
+          <span data-lang="tr">
+            Renk <span class="color-blue">Değişir</span>,<br>
+            Her Şey <span class="color-yellow">Değişir</span>.
+          </span>
+          <span data-lang="en">
+            Color <span class="color-blue">Changes</span>,<br>
+            <span class="color-yellow">Everything</span> Changes.
+          </span>
+        </h1>
+        <p class="hero-lead">
+          <span data-lang="tr">Otoyolun en hızlı refleks testi. Arabanın rengi değişiyor — doğru renkli halkadan geç, trafikten kaç. Üç karar, bir saniye, hepsi sende.</span>
+          <span data-lang="en">The highway's fastest reflex test. Your car's color keeps changing — match the right rings, dodge traffic. Three decisions, one second, all you.</span>
+        </p>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-store" aria-label="App Store'dan indir (yakında)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.86 2.34-4.24 2.45-4.31-1.33-1.95-3.42-2.22-4.15-2.25-1.77-.18-3.45 1.04-4.35 1.04-.91 0-2.28-1.01-3.76-.98-1.93.03-3.71 1.12-4.71 2.84-2.01 3.48-.51 8.62 1.45 11.44.95 1.38 2.09 2.93 3.57 2.87 1.43-.06 1.97-.92 3.7-.92 1.73 0 2.21.92 3.73.89 1.54-.03 2.52-1.4 3.47-2.79 1.1-1.6 1.54-3.15 1.56-3.22-.03-.01-3-1.15-3.02-4.56l.06-.05zM14.4 3.6c.79-.96 1.32-2.28 1.18-3.6-1.14.05-2.52.76-3.33 1.71-.73.85-1.37 2.2-1.2 3.5 1.27.1 2.57-.65 3.35-1.61z"/></svg>
+            <span>
+              <span class="store-sub" data-lang="tr">Yakında —</span>
+              <span class="store-sub" data-lang="en">Coming soon —</span>
+              <span class="store-main">App Store</span>
+            </span>
+          </a>
+          <a href="#" class="btn btn-store" aria-label="Google Play'den indir (yakında)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.8 2.2c-.4.3-.7.8-.7 1.5v16.5c0 .7.3 1.2.7 1.5L13.3 12 3.8 2.2zm11.7 11.4l2.6 1.5c1.3.7 1.3 1.9 0 2.6l-2.9 1.7-2.6-2.9 2.9-2.9zm-2.9-2.9l-8.4-4.9 11.3 11.3-2.9-2.9-8.4-8.4 8.4 4.9z"/></svg>
+            <span>
+              <span class="store-sub" data-lang="tr">Yakında —</span>
+              <span class="store-sub" data-lang="en">Coming soon —</span>
+              <span class="store-main">Google Play</span>
+            </span>
+          </a>
+          <a href="#oynanis" class="btn btn-secondary">
+            <span data-lang="tr">▶ Oynanışı Gör</span>
+            <span data-lang="en">▶ See Gameplay</span>
+          </a>
+        </div>
+        <div class="trust-bar" role="list">
+          <span role="listitem"><span class="dot"></span><span data-lang="tr">25 Araç</span><span data-lang="en">25 Cars</span></span>
+          <span role="listitem"><span class="dot"></span><span data-lang="tr">60 FPS Kilitli</span><span data-lang="en">60 FPS Locked</span></span>
+          <span role="listitem"><span class="dot"></span><span data-lang="tr">Türkçe %100</span><span data-lang="en">Full English</span></span>
+          <span role="listitem"><span class="dot"></span><span data-lang="tr">Renk Körü Dostu</span><span data-lang="en">Colorblind Friendly</span></span>
+          <span role="listitem"><span class="dot"></span><span data-lang="tr">Pay-to-Win Yok</span><span data-lang="en">No Pay-to-Win</span></span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/og/hero-og.png" alt="Color Rush gameplay — iPhone ve Android cihazlarda renk eşleştirme oyunu" width="1200" height="900" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MECHANICS (3 cards) -->
+<section id="oynanis">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">Oynanış</span>
+      <span data-lang="en">Gameplay</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">Üç Karar, Bir Saniye</span>
+      <span data-lang="en">Three Decisions, One Second</span>
+    </h2>
+    <p class="section-lead">
+      <span data-lang="tr">Subway Surfers'ın trafik kaçışını Color Switch'in renk eşleştirmesiyle birleştirdik — hız sürekli arttırdıkta karar süren küçülüyor.</span>
+      <span data-lang="en">We merged Subway Surfers traffic dodging with Color Switch matching — speed keeps rising as your reaction window shrinks.</span>
+    </p>
+    <div class="mechanics-grid">
+      <article class="mechanic-card">
+        <div class="mechanic-icon" aria-hidden="true">◉</div>
+        <h3>
+          <span data-lang="tr">Rengi Yakala</span>
+          <span data-lang="en">Match the Color</span>
+        </h3>
+        <p>
+          <span data-lang="tr">Araban her 500-800 metrede renk değiştiriyor. Eşleşen renkteki halkadan geçersen puan, yanlış renkli halkaya çarparsan anında son.</span>
+          <span data-lang="en">Your car shifts color every 500-800 meters. Match the ring to score, hit the wrong color and it's over instantly.</span>
+        </p>
+      </article>
+      <article class="mechanic-card">
+        <div class="mechanic-icon" aria-hidden="true">⚡</div>
+        <h3>
+          <span data-lang="tr">Trafikten Kaç</span>
+          <span data-lang="en">Dodge the Traffic</span>
+        </h3>
+        <p>
+          <span data-lang="tr">Üç şerit, saniyede karar. Sola-sağa swipe ile geçiş yap — sedan, SUV, kamyon hepsi farklı hızda, biri her zaman geçilebilir.</span>
+          <span data-lang="en">Three lanes, split-second decisions. Swipe left-right between sedans, SUVs, trucks — at least one lane is always passable.</span>
+        </p>
+      </article>
+      <article class="mechanic-card">
+        <div class="mechanic-icon" aria-hidden="true">🏁</div>
+        <h3>
+          <span data-lang="tr">Sınırı Zorla</span>
+          <span data-lang="en">Push the Limit</span>
+        </h3>
+        <p>
+          <span data-lang="tr">100 km/h'tan 280 km/h tavana bir ease-out eğrisi. Başlangıçta öğrenirsin, 5.000 metre sonra refleksinin sınırını görürsün.</span>
+          <span data-lang="en">From 100 km/h to a 280 km/h ceiling on an ease-out curve. You learn early, you find your limit after 5,000 meters.</span>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY COLOR RUSH (6 features) -->
+<section id="neden" style="background: var(--bg-2);">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">Neden Color Rush</span>
+      <span data-lang="en">Why Color Rush</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">Rakiplerden Farklı, Ustasına Layık</span>
+      <span data-lang="en">Different from Rivals, Worthy of Mastery</span>
+    </h2>
+    <p class="section-lead">
+      <span data-lang="tr">Arcade oyun sektöründeki ortalamayı değil, zirveyi hedefliyoruz. Altı somut fark:</span>
+      <span data-lang="en">We aim for the top, not the average. Six concrete differences:</span>
+    </p>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">⚔</div>
+        <div>
+          <h3>
+            <span data-lang="tr">3-Katmanlı Karar Baskısı</span>
+            <span data-lang="en">Three-Layer Decision Pressure</span>
+          </h3>
+          <p>
+            <span data-lang="tr">Trafik + renk + hız eşzamanlı. Sektörde bu hibrit yok — hazır bir kopya bulamazsın.</span>
+            <span data-lang="en">Traffic + color + speed at once. No existing hybrid in the market — you won't find a clone.</span>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">🚗</div>
+        <div>
+          <h3>
+            <span data-lang="tr">25 Araçlık Garaj</span>
+            <span data-lang="en">25-Car Garage</span>
+          </h3>
+          <p>
+            <span data-lang="tr">Altın ve Gem ile aç. Hafif stat farkları + kozmetik. Pay-to-win yok — para sırayı bozmaz.</span>
+            <span data-lang="en">Unlock with Gold and Gems. Minor stat nuance + cosmetics. No pay-to-win — money doesn't beat skill.</span>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">◇</div>
+        <div>
+          <h3>
+            <span data-lang="tr">Renk Körü Dostu</span>
+            <span data-lang="en">Colorblind Friendly</span>
+          </h3>
+          <p>
+            <span data-lang="tr">Her renk hem renk hem şekil: daire, üçgen, kare, baklava. 300M oyuncu için düşünüldü.</span>
+            <span data-lang="en">Each color carries a shape: circle, triangle, square, diamond. Built for 300M players.</span>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">📈</div>
+        <div>
+          <h3>
+            <span data-lang="tr">Artan Zorluk Eğrisi</span>
+            <span data-lang="en">Escalating Difficulty Curve</span>
+          </h3>
+          <p>
+            <span data-lang="tr">Flow state formülü (ease-out). Yeni başlayan kolay başlar, ustalaşan sıkılmaz.</span>
+            <span data-lang="en">Flow state formula (ease-out). Beginners start easy, veterans stay hooked.</span>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">🇹🇷</div>
+        <div>
+          <h3>
+            <span data-lang="tr">Türkçe %100</span>
+            <span data-lang="en">Full Turkish Localization</span>
+          </h3>
+          <p>
+            <span data-lang="tr">HUD, menü, tutorial, mağaza — hepsi tam Türkçe. "Türk oyuncu unutulmaz" prensibi.</span>
+            <span data-lang="en">HUD, menus, tutorial, store — fully Turkish. We respect our home audience.</span>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" aria-hidden="true">⚙</div>
+        <div>
+          <h3>
+            <span data-lang="tr">60 FPS Kilitli</span>
+            <span data-lang="en">60 FPS Locked</span>
+          </h3>
+          <p>
+            <span data-lang="tr">2GB RAM cihazlarda bile stabil. Unity 6 URP, object pooling, zero-GC loop.</span>
+            <span data-lang="en">Stable even on 2GB RAM devices. Unity 6 URP, object pooling, zero-GC loop.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="nasil">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">Nasıl Oynanır</span>
+      <span data-lang="en">How to Play</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">Dört Adımda Usta Ol</span>
+      <span data-lang="en">Master It in Four Steps</span>
+    </h2>
+    <div class="steps">
+      <div class="step">
+        <h3><span data-lang="tr">Swipe Et</span><span data-lang="en">Swipe</span></h3>
+        <p>
+          <span data-lang="tr">Sola veya sağa kaydır — araban tek şerit değişir. Butonlu kontrol de mevcut.</span>
+          <span data-lang="en">Swipe left or right — one lane per flick. Button controls also available.</span>
+        </p>
+      </div>
+      <div class="step">
+        <h3><span data-lang="tr">Rengini İzle</span><span data-lang="en">Watch the Color</span></h3>
+        <p>
+          <span data-lang="tr">Ekranın üstündeki "Sıradaki Renk" göstergesi seni hazırlar. Renk değişimi 100m'lik af verir.</span>
+          <span data-lang="en">The "Next Color" hint on top prepares you. Transitions include a 100m grace period.</span>
+        </p>
+      </div>
+      <div class="step">
+        <h3><span data-lang="tr">Halkadan Geç</span><span data-lang="en">Pass the Ring</span></h3>
+        <p>
+          <span data-lang="tr">Eşleşen renkteki halkaya yönel. Yanlış halka = ölüm. Nötr gri halkalar puan vermez ama zarar da vermez.</span>
+          <span data-lang="en">Aim for the matching color. Wrong ring = instant death. Gray rings are neutral.</span>
+        </p>
+      </div>
+      <div class="step">
+        <h3><span data-lang="tr">Combo Yap</span><span data-lang="en">Chain Combos</span></h3>
+        <p>
+          <span data-lang="tr">Üst üste 12+ halka geçersen 5× çarpan açılır. Bir kaçırmak komboyu sıfırlar — temiz çizgiyi koru.</span>
+          <span data-lang="en">12+ rings in a row unlocks 5× multiplier. One miss resets — keep the clean line.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gorsel" style="background: var(--bg-2);">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">Görsel Galeri</span>
+      <span data-lang="en">Screenshots</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">Ekran Görüntüleri</span>
+      <span data-lang="en">In-Game Views</span>
+    </h2>
+    <div class="gallery">
+      <figure>
+        <img src="assets/screenshots/01-mainmenu.png" alt="Color Rush ana menü — oyun başlatma ekranı" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Ana Menü</span><span data-lang="en">Main Menu</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/screenshots/02-gameplay.png" alt="Gameplay HUD — otoyolda araba, halkalar, hız göstergesi" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Oynanış</span><span data-lang="en">Gameplay</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/screenshots/03-gameover.png" alt="Oyun sonu ekranı — skor ve revive seçenekleri" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Oyun Sonu</span><span data-lang="en">Game Over</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/screenshots/04-garage.png" alt="Garaj — 25 araç koleksiyonu, kilit açma ekranı" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Garaj (25 Araç)</span><span data-lang="en">Garage (25 Cars)</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/screenshots/05-tutorial.png" alt="Tutorial — oyun mekaniği öğretim ekranı" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Eğitim</span><span data-lang="en">Tutorial</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/screenshots/06-store.png" alt="Altın mağazası — yumuşak para paketleri" loading="lazy" width="540" height="960">
+        <figcaption><span data-lang="tr">Mağaza</span><span data-lang="en">Store</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="yorumlar">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">Beta Testçi Yorumları</span>
+      <span data-lang="en">Beta Tester Reviews</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">İlk Oynayanlardan</span>
+      <span data-lang="en">From First Players</span>
+    </h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <div class="testimonial-stars" aria-label="5 yıldız">★★★★★</div>
+        <p class="testimonial-quote">
+          <span data-lang="tr">"Subway Surfers ile Color Switch'i birleştiren ilk oyun. İlk 10 dakikada bıraktım diye düşünmüştüm — 3 saat sonra hâlâ oynuyordum."</span>
+          <span data-lang="en">"The first hybrid of Subway Surfers and Color Switch. Thought I'd quit in 10 minutes — still playing 3 hours later."</span>
+        </p>
+        <div class="testimonial-author">
+          <span class="avatar" aria-hidden="true">MY</span>
+          <div>
+            <strong>M. Yılmaz</strong>
+            <span data-lang="tr">Beta tester, İstanbul</span>
+            <span data-lang="en">Beta tester, Istanbul</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-stars" aria-label="5 yıldız">★★★★★</div>
+        <p class="testimonial-quote">
+          <span data-lang="tr">"Renk körüyüm. Arcade oyunların çoğu bana kapalı. Color Rush'ta geometrik şekiller sayesinde tek renk değil, dört sembol görüyorum — oyun bambaşka."</span>
+          <span data-lang="en">"I'm colorblind. Most arcade games exclude me. Color Rush's geometric shapes give me four distinct symbols — the game opens up entirely."</span>
+        </p>
+        <div class="testimonial-author">
+          <span class="avatar" aria-hidden="true">ED</span>
+          <div>
+            <strong>E. Demir</strong>
+            <span data-lang="tr">Oyuncu, Ankara</span>
+            <span data-lang="en">Player, Ankara</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-stars" aria-label="5 yıldız">★★★★★</div>
+        <p class="testimonial-quote">
+          <span data-lang="tr">"Türkçe oyunlar genellikle ya çeviri kokuyor ya kalite düşük. Bu ikisi de değil — hem tam Türkçe hem de uluslararası standartta. Nadir iş."</span>
+          <span data-lang="en">"Turkish games either smell of translation or feel low-tier. This is neither — fully native, internationally polished. A rare case."</span>
+        </p>
+        <div class="testimonial-author">
+          <span class="avatar" aria-hidden="true">SK</span>
+          <div>
+            <strong>S. Kaya</strong>
+            <span data-lang="tr">Oyun blogu yazarı</span>
+            <span data-lang="en">Gaming blog writer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="hakkinda" style="background: var(--bg-2);">
+  <div class="container">
+    <div class="about-box">
+      <div>
+        <span class="section-eyebrow">
+          <span data-lang="tr">Geliştirici</span>
+          <span data-lang="en">Developer</span>
+        </span>
+        <h2>
+          <span data-lang="tr">Ajans ve Oyun Bir Arada</span>
+          <span data-lang="en">Agency + Game, Side by Side</span>
+        </h2>
+        <p>
+          <span data-lang="tr">Color Rush'ı <strong>Parcalar / Candavarcı Trusted Digital Partner</strong> geliştirdi. 33 markaya web tasarım, SEO ve performans pazarlama hizmeti veren bir ajansız; bu oyun da kendi portföyümüzün parçası. Kurucumuz Can Davarcı, dijital pazarlama içindeki kalite eksikliğine karşı "kendi standardımızı kendi ürünümüzle gösterelim" dedi — oyun buradan doğdu.</span>
+          <span data-lang="en">Color Rush is built by <strong>Parcalar / Candavarcı Trusted Digital Partner</strong>. We're a digital agency serving 33 brands with web design, SEO, and performance marketing; this game is part of our own portfolio. Our founder Can Davarcı said "let's show our standard with our own product" — the game was born there.</span>
+        </p>
+        <p>
+          <span data-lang="tr">Aynı disiplinle üretim: Unity 6 + URP, 72 script, 22.000 satır kod, 40 iterasyon playtest. Pay-to-win yok çünkü güven yok satılır. Türkçe %100 çünkü oyuncularımıza saygı duyuyoruz.</span>
+          <span data-lang="en">Same discipline: Unity 6 + URP, 72 scripts, 22,000 lines of code, 40 playtesting iterations. No pay-to-win because trust isn't for sale. Fully Turkish because we respect our players.</span>
+        </p>
+        <a href="https://candavarci.com.tr" class="btn btn-secondary" target="_blank" rel="noopener">
+          <span data-lang="tr">Ajansımızı Tanı →</span>
+          <span data-lang="en">Meet the Agency →</span>
+        </a>
+      </div>
+      <div>
+        <div style="background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px;">
+          <div style="font-size: 48px; font-weight: 900; color: var(--yellow); line-height: 1; font-family: 'Space Grotesk';">33</div>
+          <p style="color: var(--text-muted); font-size: 14px; margin-top: 6px;">
+            <span data-lang="tr">Aktif müşteri</span>
+            <span data-lang="en">Active clients</span>
+          </p>
+          <div style="font-size: 48px; font-weight: 900; color: var(--blue); line-height: 1; font-family: 'Space Grotesk'; margin-top: 20px;">40</div>
+          <p style="color: var(--text-muted); font-size: 14px; margin-top: 6px;">
+            <span data-lang="tr">Playtest iterasyonu</span>
+            <span data-lang="en">Playtest iterations</span>
+          </p>
+          <div style="font-size: 48px; font-weight: 900; color: var(--green); line-height: 1; font-family: 'Space Grotesk'; margin-top: 20px;">22K</div>
+          <p style="color: var(--text-muted); font-size: 14px; margin-top: 6px;">
+            <span data-lang="tr">Satır C# kodu</span>
+            <span data-lang="en">Lines of C#</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="sss">
+  <div class="container">
+    <span class="section-eyebrow">
+      <span data-lang="tr">SSS</span>
+      <span data-lang="en">FAQ</span>
+    </span>
+    <h2 class="section-title">
+      <span data-lang="tr">Sıkça Sorulan Sorular</span>
+      <span data-lang="en">Frequently Asked Questions</span>
+    </h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary><span data-lang="tr">Oyun ücretsiz mi?</span><span data-lang="en">Is the game free?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Evet, Color Rush tamamen ücretsiz indirilir ve oynanır. İsteğe bağlı in-app satın alma (kozmetik araç skinleri, yumuşak para paketleri) ve rewarded video reklamları bulunur. Pay-to-win yoktur.</span>
+          <span data-lang="en">Yes, Color Rush is fully free to download and play. Optional in-app purchases (cosmetic skins, soft currency packs) and rewarded video ads are available. No pay-to-win.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Hangi platformlarda oynanabilir?</span><span data-lang="en">Which platforms?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">iOS 15.0+ ve Android 8.0+ (API 26). Minimum 2GB RAM gerekir. Uygulama boyutu 100MB altındadır.</span>
+          <span data-lang="en">iOS 15.0+ and Android 8.0+ (API 26). Minimum 2GB RAM. App size under 100MB.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Oyun Türkçe mi?</span><span data-lang="en">Is it in Turkish?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Evet, oyun %100 Türkçeye çevrilidir. HUD, menüler, tutorial, ayarlar ve mağaza tam Türkçe. İngilizce dil seçeneği de mevcuttur.</span>
+          <span data-lang="en">Yes, fully localized to Turkish — HUD, menus, tutorial, settings, store. English is also available.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Renk körü desteği nasıl çalışıyor?</span><span data-lang="en">How does colorblind support work?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Her renk hem renk hem de geometrik sembol taşır: Mavi/daire ○, Sarı/üçgen △, Kırmızı/kare □, Yeşil/baklava ◇. Ayrıca üç yüksek kontrast paleti ve desen seçenekleri mevcut. Bu özellik arcade oyunlarda nadirdir ve dünyadaki 300 milyon renk körü oyuncuyu oyuna dahil eder.</span>
+          <span data-lang="en">Each color carries a geometric shape: Blue/circle ○, Yellow/triangle △, Red/square □, Green/diamond ◇. Three high-contrast palettes and pattern options too. Rare in arcade — includes 300 million colorblind players worldwide.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Multiplayer var mı?</span><span data-lang="en">Is there multiplayer?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">İlk sürümde multiplayer yok — tek oyunculu endless arcade deneyimi. Global leaderboard ve haftalık etkinlikler sonraki güncellemelerde planlanıyor.</span>
+          <span data-lang="en">Not in the first release — single-player endless arcade. Global leaderboards and weekly events are planned for later updates.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Çevrimdışı oynanır mı?</span><span data-lang="en">Playable offline?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Evet, oyun çevrimdışı tam oynanır. İnternet yalnızca reklam gösterimi ve mağaza (IAP) için gerekir. Skor tablosu lokal kaydedilir.</span>
+          <span data-lang="en">Yes, fully offline. Internet is only needed for ads and the store. Scores are saved locally.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Pay-to-win var mı?</span><span data-lang="en">Any pay-to-win?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Hayır. Mağazada yalnızca kozmetik araç skinleri ve yumuşak para paketleri satılır. Ekstra can, hız artışı veya renk ipucu gibi oynanışı etkileyen satın alma yoktur. Skor tablosu bütünlüğü korunur.</span>
+          <span data-lang="en">No. Only cosmetic skins and soft currency packs. No extra lives, speed boosts, or color hints for sale. Leaderboard integrity is protected.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Reklam gösteriliyor mu?</span><span data-lang="en">Are there ads?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Ölüm sonrası isteğe bağlı rewarded video (revive veya 2× altın) ve her 3. ölümde bir kısa interstitial. Reklamları tamamen kaldıran tek seferlik 49 TL satın alma mevcuttur.</span>
+          <span data-lang="en">Optional rewarded video after death (revive or 2× gold) and a short interstitial every 3rd death. A one-time 49 TL purchase removes ads entirely.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Kaç araç var?</span><span data-lang="en">How many cars?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Başlangıçta 25 araç. Her biri farklı görünüm ve hafif stat farkları (hız, şerit değiştirme hızı) taşır. Altın ve Gem ile kilit açılır. Yeni araç puanı artırmaz, yalnızca görünümdür — pay-to-win yok.</span>
+          <span data-lang="en">25 cars at launch. Each has a unique look and subtle stat nuances (speed, lane-switch speed). Unlocked with Gold and Gems. New cars don't raise scores — cosmetic only.</span>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-lang="tr">Ne zaman yayında olacak?</span><span data-lang="en">Release date?</span></summary>
+        <div class="faq-body">
+          <span data-lang="tr">Yaklaşık 30 gün içinde App Store ve Google Play'de yayında. Güncel bilgi almak için <a href="mailto:contact@candavarci.com.tr" style="color: var(--accent);">contact@candavarci.com.tr</a> adresinden bize ulaşabilirsiniz.</span>
+          <span data-lang="en">Roughly 30 days to App Store and Google Play launch. For updates: <a href="mailto:contact@candavarci.com.tr" style="color: var(--accent);">contact@candavarci.com.tr</a></span>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta" id="indir">
+  <div class="container">
+    <h2>
+      <span data-lang="tr">Hazır mısın?</span>
+      <span data-lang="en">Are You Ready?</span>
+    </h2>
+    <p>
+      <span data-lang="tr">Otoyolun en hızlı refleks testi cebinde. Üç karar, bir saniye, 45 saniyelik seanslar. Ücretsiz indir — stor'dan başlar, sende biter.</span>
+      <span data-lang="en">The highway's fastest reflex test in your pocket. Three decisions, one second, 45-second runs. Free download — it starts in the store, ends in your hands.</span>
+    </p>
+    <div class="hero-cta" style="justify-content: center;">
+      <a href="#" class="btn btn-store" aria-label="App Store'dan indir (yakında)">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.04c-.02-2.86 2.34-4.24 2.45-4.31-1.33-1.95-3.42-2.22-4.15-2.25-1.77-.18-3.45 1.04-4.35 1.04-.91 0-2.28-1.01-3.76-.98-1.93.03-3.71 1.12-4.71 2.84-2.01 3.48-.51 8.62 1.45 11.44.95 1.38 2.09 2.93 3.57 2.87 1.43-.06 1.97-.92 3.7-.92 1.73 0 2.21.92 3.73.89 1.54-.03 2.52-1.4 3.47-2.79 1.1-1.6 1.54-3.15 1.56-3.22-.03-.01-3-1.15-3.02-4.56l.06-.05zM14.4 3.6c.79-.96 1.32-2.28 1.18-3.6-1.14.05-2.52.76-3.33 1.71-.73.85-1.37 2.2-1.2 3.5 1.27.1 2.57-.65 3.35-1.61z"/></svg>
+        <span>
+          <span class="store-sub" data-lang="tr">Yakında —</span>
+          <span class="store-sub" data-lang="en">Coming soon —</span>
+          <span class="store-main">App Store</span>
+        </span>
+      </a>
+      <a href="#" class="btn btn-store" aria-label="Google Play'den indir (yakında)">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.8 2.2c-.4.3-.7.8-.7 1.5v16.5c0 .7.3 1.2.7 1.5L13.3 12 3.8 2.2zm11.7 11.4l2.6 1.5c1.3.7 1.3 1.9 0 2.6l-2.9 1.7-2.6-2.9 2.9-2.9zm-2.9-2.9l-8.4-4.9 11.3 11.3-2.9-2.9-8.4-8.4 8.4 4.9z"/></svg>
+        <span>
+          <span class="store-sub" data-lang="tr">Yakında —</span>
+          <span class="store-sub" data-lang="en">Coming soon —</span>
+          <span class="store-main">Google Play</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" aria-label="Color Rush">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+              <rect width="64" height="64" rx="14" fill="#243147"/>
+              <circle cx="20" cy="22" r="5" fill="#2979FF"/>
+              <polygon points="44,15 50,26 38,26" fill="#FFD600"/>
+              <rect x="15" y="38" width="10" height="10" fill="#FF1744"/>
+              <polygon points="44,38 52,44 44,50 36,44" fill="#00E676"/>
+            </svg>
+          </span>
+          <span>Color Rush</span>
+        </a>
+        <p>
+          <span data-lang="tr">Parcalar / Candavarcı Trusted Digital Partner tarafından Türkiye'de üretildi. iOS + Android için ücretsiz arcade mobil oyun.</span>
+          <span data-lang="en">Built in Turkey by Parcalar / Candavarcı Trusted Digital Partner. Free arcade mobile game for iOS + Android.</span>
+        </p>
+      </div>
+      <div>
+        <h4><span data-lang="tr">Bağlantılar</span><span data-lang="en">Links</span></h4>
+        <ul>
+          <li><a href="#oynanis"><span data-lang="tr">Oynanış</span><span data-lang="en">Gameplay</span></a></li>
+          <li><a href="#neden"><span data-lang="tr">Özellikler</span><span data-lang="en">Features</span></a></li>
+          <li><a href="#sss"><span data-lang="tr">SSS</span><span data-lang="en">FAQ</span></a></li>
+          <li><a href="https://candavarci.com.tr" target="_blank" rel="noopener">Candavarcı</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4><span data-lang="tr">Yasal</span><span data-lang="en">Legal</span></h4>
+        <ul>
+          <li><a href="privacy.html"><span data-lang="tr">Gizlilik Politikası</span><span data-lang="en">Privacy Policy</span></a></li>
+          <li><a href="terms.html"><span data-lang="tr">Kullanım Şartları</span><span data-lang="en">Terms of Service</span></a></li>
+          <li><a href="mailto:contact@candavarci.com.tr">contact@candavarci.com.tr</a></li>
+          <li><a href="tel:+905549478018">0554 947 80 18</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Parcalar / Candavarcı Trusted Digital Partner. <span data-lang="tr">Tüm hakları saklıdır.</span><span data-lang="en">All rights reserved.</span></span>
+      <span class="footer-legal">
+        <span data-lang="tr">App Store, Apple Inc.'in; Google Play, Google LLC'nin tescilli markasıdır.</span>
+        <span data-lang="en">App Store is a trademark of Apple Inc. Google Play is a trademark of Google LLC.</span>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- Language Toggle + Minimal JS -->
+<script>
+(function(){
+  const btnTR = document.getElementById('btn-tr');
+  const btnEN = document.getElementById('btn-en');
+  const html = document.documentElement;
+
+  function setLang(lang){
+    if(lang === 'en'){
+      html.setAttribute('lang', 'en-US');
+      btnTR.setAttribute('aria-pressed', 'false');
+      btnEN.setAttribute('aria-pressed', 'true');
+      document.title = 'Color Rush: Car Arcade Game — Color Changes, Everything Changes';
+      try { localStorage.setItem('cr-lang', 'en'); } catch(e){}
+    } else {
+      html.setAttribute('lang', 'tr-TR');
+      btnTR.setAttribute('aria-pressed', 'true');
+      btnEN.setAttribute('aria-pressed', 'false');
+      document.title = 'Color Rush: Araba Oyunu — Renk Değişir, Her Şey Değişir';
+      try { localStorage.setItem('cr-lang', 'tr'); } catch(e){}
+    }
+  }
+
+  btnTR.addEventListener('click', () => setLang('tr'));
+  btnEN.addEventListener('click', () => setLang('en'));
+
+  // Initial lang detect
+  try {
+    const saved = localStorage.getItem('cr-lang');
+    if(saved === 'en' || new URLSearchParams(location.search).get('lang') === 'en'){
+      setLang('en');
+    }
+  } catch(e){}
+
+  // Scroll-based reveal (progressive enhancement)
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if(e.isIntersecting){
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.mechanic-card, .feature, .step, .testimonial, .gallery figure').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 500ms, transform 500ms';
+      io.observe(el);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

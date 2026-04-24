@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /assets/internal/
+Disallow: /*.json$
+
+# AI search engines (AEO/GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://colorrush.candavarci.com.tr/sitemap.xml

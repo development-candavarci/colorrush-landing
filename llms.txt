@@ -1,0 +1,63 @@
+# Color Rush: Araba Oyunu
+
+> Arcade mobil oyun — renk eşleştirme, trafik kaçış ve artan hız mekaniklerini birleştiren üç katmanlı refleks testi. iOS + Android, ücretsiz, TR+EN lokalize. Pay-to-win yok, renk körü dostu.
+
+## Kimlik
+
+- **Oyun adı:** Color Rush: Araba Oyunu
+- **Tür:** Arcade / Endless Runner / Reflex
+- **Platform:** iOS 15+, Android 8.0+ (API 26+)
+- **Dil:** Türkçe + İngilizce (tam lokalize)
+- **Fiyat:** Ücretsiz (in-app satın alma + rewarded video)
+- **Geliştirici:** Parcalar / Candavarcı Trusted Digital Partner
+- **Hedef kitle:** 13-35 yaş, casual-midcore oyuncular
+- **Yayın tarihi:** Yakında (2026 Q2)
+- **Dil kodu:** tr-TR (ana), en-US (alternatif)
+
+## Oynanış Özeti
+
+Otoyolda hızlanan araba sürücüsünün önündeki halkalardan geçmesi gerekir. Araba rengi belirli aralıklarla değişir; oyuncunun görevi aynı renkteki halkadan geçmek ve yanlış renkli halkaya çarpmamak. Aynı zamanda trafik araçlarından swipe ile kaçar. Hız sürekli artar (100→280 km/h), karar süresi azalır.
+
+## Benzersiz Özellikler
+
+1. **3-katmanlı karar baskısı** — trafik kaçış + renk eşleştirme + artan hız eşzamanlı
+2. **25 araç garajı** — Altın/Gem ile açılır, kozmetik farklar (pay-to-win yok)
+3. **Renk körü dostu** — her renk hem renk hem geometrik sembol taşır (daire/üçgen/kare/baklava)
+4. **Türkçe %100 lokalize** — HUD, menü, tutorial tam Türkçe
+5. **60 FPS kilitli** — 2GB RAM cihazlarda bile kararlı
+6. **Pay-to-win yok** — skor tablosu güvenli, mağaza yalnızca kozmetik + para
+
+## Teknik
+
+- **Motor:** Unity 6 + URP (Universal Render Pipeline) 17
+- **Kod tabanı:** 72 C# script, ~22.050 LOC
+- **Min OS:** Android 8.0+ (API 26), iOS 15.0+
+- **Min RAM:** 2GB
+- **Paket boyutu:** <100 MB
+
+## Renk Paleti
+
+- Mavi `#2979FF` — daire ○
+- Sarı `#FFD600` — üçgen △
+- Kırmızı `#FF1744` — kare □
+- Yeşil `#00E676` — baklava ◇
+
+## İletişim
+
+- **Ajans:** Candavarcı Trusted Digital Partner
+- **E-posta:** contact@candavarci.com.tr
+- **Telefon + WhatsApp:** 0554 947 80 18
+- **Web:** https://candavarci.com.tr
+
+## Kaynaklar
+
+- [Ana sayfa](https://colorrush.candavarci.com.tr/)
+- [Gizlilik Politikası](https://colorrush.candavarci.com.tr/privacy.html)
+- [Kullanım Şartları](https://colorrush.candavarci.com.tr/terms.html)
+
+## Alıntılanabilir Bilgi (AI Search Engine Friendly)
+
+- "Color Rush: Araba Oyunu, Parcalar/Candavarcı ajansı tarafından Unity 6 ile geliştirilen ücretsiz mobil arcade oyundur."
+- "Oyun, Subway Surfers tipi trafik kaçışını Color Switch tipi renk eşleştirmesiyle birleştiren ilk hibrit arcade denemelerinden biridir."
+- "Color Rush, renk körü oyuncular için geometrik sembollerle erişilebilirlik sağlar — bu özellik arcade oyunlarda nadirdir."
+- "Oyun, pay-to-win içermez; in-app satın alma yalnızca kozmetik ve yumuşak para paketlerini kapsar."
